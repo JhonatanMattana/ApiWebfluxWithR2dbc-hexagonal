@@ -1,6 +1,6 @@
 package com.webflux.webflux.application.usercase.imp;
 
-import com.webflux.webflux.application.usercase.IProdutoUserCase;
+import com.webflux.webflux.application.usercase.IProdutoUseCase;
 import com.webflux.webflux.domain.model.ProdutoModel;
 import com.webflux.webflux.domain.repository.IProdutoRepository;
 import lombok.RequiredArgsConstructor;
@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 
 @Service
 @RequiredArgsConstructor
-public class ProdutoUserCaseImpl implements IProdutoUserCase {
+public class ProdutoUseCaseImpl implements IProdutoUseCase {
 
     private final IProdutoRepository produtoRepository;
 
